@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niche.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SCREEN 1: INTRO -->
+    <div id="intro-screen">
+        <h1>niche.</h1>
+        <p>everyone's something. find out what you are.</p>
+        <button id="start-btn">find my niche</button>
+    </div>
+
+    <!-- SCREEN 2: QUIZ -->
+    <div id="quiz-screen" class="hidden">
+        <p id="progress"></p>
+        <h2 id="question-text"></h2>
+        <div id="answers-container"></div>
+    </div>
+
+    <!-- SCREEN 3: RESULT -->
+    <div id="result-screen" class="hidden">
+        <p id="result-label">you are</p>
+        <h1 id="result-name"></h1>
+        <p id="result-description"></p>
+        <ul id="result-traits"></ul>
+        <button id="retry-btn">try again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
